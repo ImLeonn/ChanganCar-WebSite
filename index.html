@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Changan-auto">
+  <title>Changan-auto</title>
+  <link rel="stylesheet" href="./css/styleheader.css">
+  <link rel="stylesheet" href="./css/stylemain.css">
+  <link rel="stylesheet" href="./css/stylemedium.css">
+  <link rel="stylesheet" href="./css/stylesmall.css">
+  <script type="text/javascript" src="./js/mediumscripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+  <header data-test="header">
+    <div id="navigation">
+      <div id="logoposition">
+        <img src="./img/logo.png" class="logo"> 
+      </div>
+      <div id="center">
+        <nav id="navbar">
+          <ul class="row">
+            <li class="navtext"> Автомобили в наличии </li>
+            <li class="navtext"> Спецпредложение </li>
+            <li class="navtext"> Продать авто </li>
+            <li class="navtext"> Сервис </li>
+            <li class="navtext"> Контакты </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="left">
+        <div id="phonePos">
+          <button class="phoneCallButton"> Заказать звонок </button>
+          <img src="./img/menu.svg" class="burgerIcon" alt="Меню">
+        </div>
+      </div>
+    </div>
+    <div id="subNavigation">
+        <div class="leftsub">
+            <img src="./img/location.svg">
+            <span class="text-near-svg"> Олимпийский просп., 5, стр. 1, Москва </span> 
+            <img src="./img/navigator.svg"> 
+            <span class="text-near-svg"> Проложить маршрут </span>
+        </div>
+        <div class="rightsub">
+            <img src="./img/time.svg">
+            <span class="text-near-svg">9:00 - 21:00 (ежедневно)</span>
+        </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2 class="pageTitle"> Теперь услуги дилерского центра Вы можете можете получить онлайн! </h2>
+    </section>
+    <section id="cards">
+      <div id="cardLeft" class="leftCardsMedium">
+        <img src="./img/leftcard.png" class="cardBackground">
+            <div class="overlay">
+                <h3 class="cardTitle">Диагностика автомобиля <p class="newLine">перед покупкой</p></h3>
+                <p class="cardText">Расскажем обо всех скрытых дефектах автомобиля с пробегом</p>
+                <button class="bigCardButton">Записаться</button>
+                <img src="./img/card1car.png" class="card1car">
+            </div>
+      </div>
+      <div class="centerCards">
+        <div id="cardCenterTop" class="rightCardsMedium">
+            <img src="./img/topcard.png" class="cardBackground">
+            <div class="overlay">
+                <div class="playBackground">
+                    <img src="./img/playbackground.png" class="circleBackground">
+                    <img src="./img/Play.png" class="play">
+                </div>
+                <div class="secondOverlay">
+                    <h3 class="cardTitle">Онлайн показ автомобиля по <p class="newLine">видеосвязи</p></h3>
+                    <p class="cardText">Проведем онлайн-показ интересующего автомобиля в удобное для Вас время</p>
+                    <div class="bottomRow">
+                        <button class="smallCardButton">Оставить заявку</button>
+                        <img src="./img/topcardcar.png" class="carCornerImg"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardCenterBottom" class="leftCardsMedium">
+            <img src="./img/bottomcard.png" class="cardBackground">
+            <div class="overlay">
+                <h3 class="cardTitle">Онлайн бронирование</h3>
+                <p class="cardText">Забронируйте понравившийся автомобиль без визита в дилерский центр</p>
+                <div class="bottomRow">
+                    <button class="smallCardButton" id="phoneCardButton">Забронировать</button>
+                    <div class="imgContainer">
+                     <img src="./img/phoneImg1.png" class="phoneCornerImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="cardRight" class="rightCardsMedium">
+        <img src="./img/rightcard.png" class="cardBackground">
+        <div class="overlay">
+            <div class="searchBackground">
+                <img src="./img/bigCircle.svg" class="bigCircleBackground">
+                <img src="./img/search.svg" class="search">
+            </div>
+            <div class="secondOverlay">
+                <h3 class="cardTitle">Онлайн оценка автомобиля с <p class="newLine">пробегом</p></h3>
+                <p class="cardTextRight">Узнайте предварительную стоимость автомобиля за 1 мин, указав его параметры</p>
+                <button class="bigCardButton">Оценить</button>
+                <img src="./img/carright.svg" class="rightCar">
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

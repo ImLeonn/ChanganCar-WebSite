@@ -1,0 +1,93 @@
+@media only screen and (max-width: 899px) {
+
+    /* Navigation */
+
+    #logoposition{
+        margin-left: 44px;
+    }
+
+    #phonePos{
+        margin-right: 44px;
+        margin-left: auto;
+    }
+
+    #subNavigation{
+        display: none;
+    }
+
+    header{
+        height: 64px;
+        width: 100%;
+        box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+    }
+
+    #center{
+        display: none;
+    }
+
+
+    /* Main */
+
+    .pageTitle{
+        margin-left: 44px;
+    }
+
+    #cards{
+        all: initial;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 44px;
+        margin-bottom: 100px;
+    }
+    
+    .rightCardsMedium{
+        margin-left: 0px;
+    }
+
+    #cardRight{
+        margin-left: 0px;
+    }
+
+    #cardLeft, #cardCenterBottom, #cardCenterTop, #cardRight {
+        width: 680px;
+        height: 233px;
+    }
+
+    .cardBackground{
+        width: 680px;
+        height: 233px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .card1car, .rightCar{
+        margin-top: -18px;
+        margin-left: 373px;
+        width: 287px;
+        height: 123px;
+        object-fit: contain;
+    }
+
+    .carCornerImg{
+        margin-top: -15px;
+        margin-left: 193px;
+    }
+
+    .imgContainer{
+        all: initial;
+        position: absolute;
+        margin-top: -6px;
+        margin-left: 373px;
+        width: 217px;
+        height: 120px;
+    }
+
+    .imgContainer img{
+        width: 130%;
+        height: 130%;
+        object-fit: contain;
+    }
+
+}

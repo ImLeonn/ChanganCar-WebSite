@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1199px) {
+
+/*Navigation*/
+    header{
+        height: 105px;
+    }
+
+    #logoposition{
+        margin-left: 86px;
+    }
+
+    #phonePos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 26px;
+        margin-right: 86px;
+        margin-left: auto;
+    }
+
+    .phoneCallButton{
+        width: 199px;
+        display: block;
+    }
+
+    .burgerIcon {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        margin-left: 24px;
+        margin-right: 0px;
+        margin-bottom: 13px;
+    }
+
+    .burgerIcon:hover {
+        filter: brightness(2); 
+    }
+
+    #subNavigation{
+        height: 40px;
+        margin-left: 86px;
+    }
+
+    .rightsub{
+        margin-left: auto;
+        margin-right: 65px;
+    }
+
+    #center{
+        display: none;
+    }
+
+
+/* Main */
+
+    .pageTitle{
+        margin-left: 86px;
+        margin-top: 56px;
+        width: 603px;
+    }
+
+    #cards{
+        all: initial;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 86px;
+        margin-bottom: 100px;
+    }
+
+    .rightCardsMedium{
+        margin-left: 12px;
+        margin-right: 86px;
+    }
+
+    .cardBackground{
+        width: 420px;
+        height: 233px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .card1car, .rightCar{
+        margin-top: 16px;
+        margin-left: 197px;
+        width: 217px;
+        height: 93px;
+        object-fit: contain;
+    }
+
+    .carCornerImg{
+        margin-top: 12px;
+        margin-left: 17px;
+    }
+
+    .imgContainer{
+        all: initial;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 197px;
+        width: 217px;
+        height: 120px;
+    }
+
+    .imgContainer img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .centerCards{
+        all: initial;
+    }
+
+    #cardLeft, #cardCenterBottom, #cardCenterTop, #cardRight {
+        width: 420px;
+        height: 233px;
+    }
+
+    #cardLeft{
+        margin-bottom: 12px;
+    }
+    #cardRight{
+        margin-top: 12px;
+    }
+
+    .smallCardButton{
+        width: 143px;
+        height: 45px;
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    #phoneCardButton{
+        margin-top: 60px;
+    }
+
+    .cardText{
+        width: 306px;
+    }
+
+    .playBackground, .searchBackground{
+        display: none;
+    }
+}
+
